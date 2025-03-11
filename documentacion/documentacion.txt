@@ -65,3 +65,11 @@ furnishingstatus:
 furnished       - Vivienda completamente amueblada
 semi-furnished  - Vivienda semi-amueblada
 undfurnished    - Vivienda sin muebles
+
+FUNCIONES:
+valores_unicos_columna(df): GRAFICOS DE CANTIDAD DE VALORES UNICOS POR COLUMNA
+matriz_correlacion(df): MATRIZ DE CORRELACION PARA VER LA RELACION ENTRE TODAS LAS VARIABLES
+dispersion_precio_area(df): GRAFICO DE DISPERSIÓN PARA VER LA RELACIÓN ENTRE EL PRECIO Y EL AREA
+histograma_dist_precio(df): HISTOGRAMA DE LA DISTRIBUCION DEL PRECIO DE LA VIVIENDA
+media_precio_columnas(df): GRAFICOS DE BARRAS PARA VER LA MEDIA DEL PRECIO POR CADA VALOR UNICO DE CADA COLUMNA
+mediana_precio_columnas(df): GRAFICOS DE BARRAS PARA VER LA MEDIANA DEL PRECIO POR CADA VALOR UNICO DE CADA COLUMNA
