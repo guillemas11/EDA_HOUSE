@@ -1,0 +1,67 @@
+DATAFRAMES:
+data = dataframe original.
+df = dataframe que se ha utilizado para el EDA (No ha habido modificaciones, ni tratamiento de nulos ni de outliers).
+numeric_df = dataframe donde hemos modificado los valores categoricos a numericos para hacer la matriz de correlacion.
+
+COLUMNAS DEL DATASET: 
+price             Tipo de dato:    Numerico 
+area              Tipo de dato:    Numerico 
+bedrooms          Tipo de dato:    Numerico 
+bathrooms         Tipo de dato:    Numerico 
+stories           Tipo de dato:    Numerico 
+mainroad          Tipo de dato:    Categorico
+guestroom         Tipo de dato:    Categorico
+basement          Tipo de dato:    Categorico
+hotwaterheating   Tipo de dato:    Categorico
+airconditioning   Tipo de dato:    Categorico
+parking           Tipo de dato:    Numerico 
+prefarea          Tipo de dato:    Categorico
+furnishingstatus  Tipo de dato:    Categorico
+
+DEFINICIÓN DE COLUMNAS: 
+price:
+Precio de la vivienda
+
+area: 
+Area de la vivienda
+
+bedrooms: 
+Numero de habitaciones en la vivienda
+
+bathrooms:
+Numero de baños en la vivienda
+
+stories: 
+Numero de pisos en la vivienda
+
+mainroad:
+Yes - Esta en una calle principal (o muy cerca)
+No  - No esta en una calle principal
+
+guestroom: 
+Yes - Tiene una habitaciónpara invitados
+No  - No tiene una habitaciónpara invitados
+
+basement:
+Yes - Tiene una habitaciónpara invitados
+No  - No tiene una habitaciónpara invitado
+
+hotwatering:
+Yes - Tiene calentador de agua
+No  - No tiene calentador de agua
+
+airconditioning:
+Yes - Tiene aire acondicionado
+No  - No tiene aire acondicionado
+
+parking:
+Numero de plazas de parking que tiene 
+
+prefarea = 
+Yes - Vive en el area donde prefiere vivir
+No  - No vive en el area donde prefiere vivir
+
+furnishingstatus:
+furnished       - Vivienda completamente amueblada
+semi-furnished  - Vivienda semi-amueblada
+undfurnished    - Vivienda sin muebles
